@@ -1,0 +1,98 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+.clear{
+    clear: both;
+}
+body.upitnik{
+    width: 680px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #F5F6F6;
+    font-family: sans-serif;
+}
+div.wrapper{
+    padding-bottom: 15px;
+}
+div.label{
+    display: inline-block;
+    width: 300px;
+}
+div.input{
+    float: right;
+    width: 300px;
+}
+td input[type="text"]{
+    width: 98%;
+    border: none;
+    outline: none;
+}
+input[name="iskustvo_u_osiguranju_koliko"],
+input[name="iskustvo_u_osiguranju_gdje"],
+input[name="iskustvo_u_prodaji_koliko"],
+input[name="iskustvo_u_prodaji_cega"]{
+    margin: 4px 0 4px 0;
+}
+input[name="ocekivanja"]{
+    float: left;
+}
+.tekst_ocekivanja{
+    padding-left: 22px;
+    margin-bottom: 5px;
+}
+body.dodatna_pitanja,
+body.singleuserpage,
+body.adminpage{
+    width: 800px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+body.dodatna_pitanja{
+    margin-bottom: 20px;
+    background-color: #F5F6F6;
+    font-family: sans-serif;
+}
+body.dodatna_pitanja textarea{
+    width: 100%;
+    margin-bottom: 30px;
+}
+#submit_button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #3ba1da;
+    color: white;
+}
+#submit_button:active{
+    border-style: outset;
+}
+#submit_button:hover{
+    background-color: #44b0ec;
+}
+body.thankyou_page{
+    width: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+body.thankyou_page h3,
+body.thankyou_page h4,
+body.thankyou_page p{
+    text-align: center;
+}
+form#form1{
+    background-color: white;
+    padding: 20px;
+}
+#form1 input[type="submit"]{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #3ba1da;
+    color: white;
+}
+#form1 input[type="submit"]:active{
+    border-style: outset;
+}
+#form1 input[type="submit"]:hover{
+    background-color: #44b0ec;
+}
